@@ -1,4 +1,4 @@
-🌿Nabit Tracker
+🌿Habit Tracker
 Hello, productive human!
 Welcome to a simple yet satisfying Habit Tracker Web App designed to help you stay consistent, with one tiny checkbox at a time.
 This project gives you a clean monthly layout where you can track your daily habits and actually see your progress grow.
