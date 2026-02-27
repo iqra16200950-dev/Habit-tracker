@@ -98,7 +98,7 @@
         }
 
         #calendarDiv{
-            background-color: rgb(230, 222, 243);
+             background-color: rgb(230, 222, 243);
             border-radius: 10px 10px 0px 0pc;
             margin: auto;
             align-content: center;
@@ -255,9 +255,9 @@
     var chosenDay = localStorage.getItem(tempString);
     console.log(i + 1 + ": " + chosenDay);
     var chosenDayDiv = document.getElementById("day" + (i + 1));
-    if (chosenDay === "true") {
+    if (chosenDay == "true") {
         chosenDayDiv.style.backgroundColor = "pink";
-    } else if (chosenDay === "false"){
+    } else if (chosenDay == "false"){
         chosenDayDiv.style.backgroundColor = "white";
     }
    }
@@ -271,11 +271,11 @@
         var storageString =
          "" + (currentMonth + 1) + "-" + num + "-" + currentYear;
 
-        if(localStorage.getItem(storageString) === "false"){
+        if(localStorage.getItem(storageString) == "false"){
             selectedDate.style.backgroundColor = "pink" ;   
             localStorage.setItem(storageString,true );
             daysCompleted++;
-        } else if (localStorage.getItem(storageString) === "true"){
+        } else if (localStorage.getItem(storageString) == "true"){
             selectedDate.style.backgroundColor = "white" ;  
             localStorage.setItem(storageString,false );
             daysCompleted--;            
@@ -296,7 +296,7 @@ resetButton.onclick = () => {
         console.log(tempStrings);
         localStorage.setItem(tempStrings, "false");
         var curDay = document.getElementById(`day${i + 1}`);
-        curDay.style.backgroundColor = "white";
+        curDay.style.backgroundColor = "rgb(230, 222, 243)";
     }
     daysCompleted = 0;
     totalDays.innerHTML = `${daysCompleted}/${daysInThisMonth}`;
