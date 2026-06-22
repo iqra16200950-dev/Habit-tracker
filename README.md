@@ -1,4 +1,4 @@
-🌿Habit Tracker
+Habit Tracker
 Hello, productive human!
 Welcome to a simple yet satisfying Habit Tracker Web App designed to help you stay consistent, with one tiny checkbox at a time.
 This project gives you a clean monthly layout where you can track your daily habits and actually see your progress grow.
@@ -24,7 +24,7 @@ Or simply build better routines
 This tracker makes your progress visible ( and we know visible progress is powerful and motivating.)
 Consistency doesn’t need to be dramatic.
 It just needs to be repeated.
-And this little web app is here to help you repeat it. 🌱✨
+And this little web app is here to help you repeat it. 
 
 ✨ What It Does
 You can:
@@ -34,11 +34,11 @@ You can:
 =>Reset everything if you want a fresh start
 
 Features
-📅 Monthly habit grid layout
-✅ Click-to-mark daily completion
-🔢 Live progress counter
-🔄 Reset button to start over
-🧼 Clean, minimal and aesthetic for the girlie's out there 
+ Monthly habit grid layout
+ Click-to-mark daily completion
+Live progress counter
+ Reset button to start over
+ Clean, minimal and aesthetic for the girlie's out there 
 
 Built With:
 HTML
